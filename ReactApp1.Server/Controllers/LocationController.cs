@@ -14,9 +14,10 @@ namespace ReactApp1.Server.Controllers
             var locations = new List<Location>
             {
                 new Location { Id = 1, Name = "Bank", OpeningTime = "09:00", EndingTime = "13:00" },
-                new Location { Id = 2, Name = "Super Market", OpeningTime = "10:00", EndingTime = "13:00" },
+                new Location { Id = 2, Name = "Super Market", OpeningTime = "10:00", EndingTime = "13:00" },                
                 new Location { Id = 3, Name = "Primary School", OpeningTime = "10:00", EndingTime = "15:00" },
-                new Location { Id = 4, Name = "Customer Support", OpeningTime = "11:00", EndingTime = "16:00" }
+                new Location { Id = 4, Name = "Customer Support", OpeningTime = "11:00", EndingTime = "16:00" },
+                new Location { Id = 5, Name = "Public Safety", OpeningTime = "10:00", EndingTime = "13:00" }
 
             };
             var filteredLocations = new List<Location>();
